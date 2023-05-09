@@ -1,0 +1,65 @@
+.van {
+    box-sizing: border-box;
+    padding: 40px 25px;
+    width: 548.15px;
+    font-family: 'Inter';
+    font-style: normal;
+
+
+    h1 {
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 34px;
+        color: #161616;
+        margin-bottom: 30px;
+    }
+
+    .list {
+        box-sizing: border-box;
+        width: 494px;
+        height: 102px;
+        background: #FFFFFF;
+        border-radius: 6px;
+        padding: 20px;
+        margin-bottom: 20px;
+
+        a {
+            display: flex;
+            text-decoration: none;
+            align-items: center;
+            gap: 20px;
+
+            img {
+                width: 66px;
+                height: 66px;
+            }
+
+            .info {
+                display: flex;
+                flex-direction: column;
+
+                h1 {
+                    font-weight: 600;
+                    font-size: 20px;
+                    line-height: 32px;
+                    display: flex;
+                    align-items: center;
+                    color: #161616;
+                    margin: 0;
+                }
+
+                h4 {
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 32px;
+                    display: flex;
+                    align-items: center;
+                    color: #4D4D4D;
+                    margin: 0
+                }
+            }
+        }
+
+
+    }
+}

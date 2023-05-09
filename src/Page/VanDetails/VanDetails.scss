@@ -1,0 +1,94 @@
+.van-details {
+    box-sizing: border-box;
+    width: 548.15px;
+    padding: 30px 20px;
+    background-color: #FFF7ED;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    a {
+        align-self: flex-start;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15.9462px;
+        line-height: 23px;
+        padding-left: 10px;
+        text-decoration-line: underline;
+        color: #201F1D;
+    }
+
+    img {
+        margin-top: 30px;
+        width: 497.32px;
+        height: 490.35px;
+        border-radius: 5px;
+        margin-bottom: 20px;
+    }
+
+    .details {
+        font-family: 'Inter';
+        font-style: normal;
+
+        padding: 18px 25px;
+
+        .type {
+            width: 85.71px;
+            height: 33.89px;
+            border-radius: 5px;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 32px;
+            text-align: center;
+            color: #FFEAD0;
+        }
+
+        .typesimple {
+            background: #E17654;
+        }
+
+        .typerugged {
+            background-color: #115E59;
+        }
+
+        .typeluxury {
+            background-color: #161616;
+        }
+
+        h4 {
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 44px;
+            color: #161616;
+        }
+
+        p {
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 24px;
+            color: #161616;
+            margin-bottom: 30px;
+        }
+
+        .button {
+            width: 494.33px;
+            height: 49.83px;
+            background: #FF8C38;
+            border-radius: 4.98319px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 25px;
+
+            a {
+                color: #FFFFFF;
+                font-weight: 700;
+                font-size: 18px;
+                align-self: center;
+                padding: 0;
+                text-decoration: none;
+            }
+        }
+    }
+}
