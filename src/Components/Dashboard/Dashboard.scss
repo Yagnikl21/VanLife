@@ -1,0 +1,153 @@
+.Dashboard {
+    font-family: 'Inter';
+    font-style: normal;
+
+    .Overview {
+        margin-top: 20px;
+        box-sizing: border-box;
+        width: 548px;
+        height: 219px;
+        display: flex;
+        box-sizing: border-box;
+        justify-content: space-between;
+        padding: 25px;
+        background-color: #FFEAD0;
+        border-radius: 5px;
+
+        .left {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            h1 {
+                font-weight: 700;
+                font-size: 36px;
+                line-height: 22px;
+                color: #161616;
+            }
+
+            p {
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 22px;
+                color: #4D4D4D;
+            }
+        }
+
+        .right {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            p {
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 22px;
+                color: #4D4D4D;
+            }
+        }
+    }
+
+    .rating {
+        width: 548px;
+        height: 113px;
+        background: #FFDDB3;
+        border-radius: 5px;
+        box-sizing: border-box;
+        display: flex;
+        box-sizing: border-box;
+        justify-content: space-between;
+        padding: 25px;
+
+        .left {
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 22px;
+            color: #161616;
+        }
+
+        .right {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            p {
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 22px;
+                color: #4D4D4D;
+            }
+        }
+    }
+
+    .list {
+        padding: 30px;
+
+        .list-info {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .van-info {
+            width: 500px;
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+
+            gap : 20px;
+            .van {
+                background-color: white;
+                width: 480px;
+                box-sizing: border-box;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding: 20px 20px;
+
+                .left {
+
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    gap:20px;
+                    img {
+                        width: 66px;
+                        height: 66px;
+                    }
+
+                    .detail {
+                        display: flex;
+                        flex-direction: column;
+                        gap:10px;
+                        h3 {
+                            margin: 0;
+                            font-weight: 600;
+                            font-size: 20px;
+                            line-height: 32px;
+                            color: #161616;
+                        }
+
+                        p {
+                            margin: 0;
+                            font-weight: 500;
+                            font-size: 16px;
+                            line-height: 32px;
+                            color: #4D4D4D;
+                        }
+                    }
+                }
+
+                .right {
+
+                    p {
+                        font-weight: 500;
+                        font-size: 16px;
+                        line-height: 22px;
+                        color: #4D4D4D;
+                    }
+                }
+            }
+        }
+    }
+}

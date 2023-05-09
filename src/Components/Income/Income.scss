@@ -1,0 +1,74 @@
+.income {
+    box-sizing: border-box;
+    padding: 30px;
+    width: 548.15px;
+    font-family: 'Inter';
+    font-style: normal;
+
+    h4 {
+        margin-top: 20px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 22px;
+        color: #4D4D4D;
+    }
+
+    .amount {
+        margin-top: 30px;
+        font-weight: 800;
+        font-size: 48px;
+        line-height: 38px;
+        color: #161616;
+        margin-bottom: 40px;
+    }
+
+    .img {
+        width: 493px;
+        height: 349.45px;
+    }
+
+    span {
+        margin-top: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        h3 {
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 22px;
+            color: #161616;
+        }
+    }
+
+    .section {
+        box-sizing: border-box;
+        width: 494px;
+        height: 102px;
+        padding: 20px 40px;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-radius: 6px;
+        margin : 20px 0;
+
+
+        h1 {
+            font-weight: 600;
+            font-size: 36px;
+            line-height: 32px;
+            color: #161616;
+        }
+
+        h4 {
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 32px;
+            display: flex;
+            align-items: center;
+            text-align: right;
+            color: #4D4D4D;
+        }
+    }
+}

@@ -1,0 +1,35 @@
+.host {
+    box-sizing: border-box;
+    padding: 20px 0;
+    background-color: #FFF7ED;
+    width: 548.15px;
+
+    nav {
+        margin: 0 20px;
+        display: flex;
+        gap: 20px;
+
+        a {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 23px;
+            display: flex;
+            align-items: center;
+            color: #4D4D4D;
+            text-decoration: none;
+        }
+
+        a:hover {
+            cursor: pointer;
+            text-decoration-line: underline;
+            color: #161616;
+        }
+
+        .Active{
+            text-decoration-line: underline;
+            color: #161616;
+        }   
+    }
+}

@@ -1,0 +1,52 @@
+.homepage {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.46), rgba(0, 0, 0, 0.46)), url(image.png);
+  width: 548.15px;
+  height: 386.7px;
+  background-repeat: no-repeat;
+
+  .container {
+    height: 300.7px;
+    padding: 30px 30px 20px;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+
+    h1 {
+      font-family: inter;
+      font-size: 36px;
+      color: white;
+    }
+
+    h3 {
+      font-family: inter;
+      font-size: 16px;
+      color: white;
+    }
+
+    a {
+      display: inline-block;
+      text-align: center;
+      text-decoration: none;
+      background-color: #FF8C38;
+      border: none;
+      width: 100%;
+      margin-top: 27px;
+      padding-block: .75rem;
+      color: white;
+      font-weight: 600;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: large;
+      transition: transform .1s ease-in-out;
+    }
+    a:hover{
+      transform: translate(1px, 1px);
+    }
+  }
+}
+
+
+
+
+
