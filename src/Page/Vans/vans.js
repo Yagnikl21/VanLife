@@ -22,9 +22,8 @@ export default function Vans() {
 
     return (
         <div className='vans'>
-            {/* <Navbar /> */}
             <div className='van-body'>
-                <h1>Explore our van options</h1>
+                {/* <h1>Explore our van options</h1> */}
                 <div className='filter'>
                     <button className='filter-button'>simple</button>
                     <button className='filter-button'>Luxury</button>
@@ -36,7 +35,6 @@ export default function Vans() {
                     {card}
                 </div>
             </div>
-            {/* <Footer /> */}
         </div>
     )
 }
