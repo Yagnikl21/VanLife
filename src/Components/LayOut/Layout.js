@@ -8,7 +8,7 @@ export default function Layout() {
     <div className="wrapper">
         <Navbar />
         <Outlet />  
-        <Footer />
+        <Footer className="fotter" />
     </div>
   )
 }
