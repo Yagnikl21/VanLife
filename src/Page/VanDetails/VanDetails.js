@@ -15,7 +15,7 @@ export default function VanDetails() {
     <div className='van-details'>
       <Link to=".."  relative='path'>&#8592; Back to all vans</Link>
       <img src={data[index].imageUrl} alt="van" />
-      <div className='details'>
+      <div className='detail'>
 
         <p className={`type type${data[index].type}`}>{data[index].type}</p>
         <h1>{data[index].name}</h1>
