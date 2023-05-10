@@ -3,8 +3,6 @@
     width: 548.15px;
 
     .van-body {
-     
-
         padding: 25px;
         background-color: #FFF7ED;
 
@@ -30,6 +28,21 @@
                 text-align: center;
                 color: #4D4D4D;
                 border: none;
+            }
+
+            .simple {
+                background-color: #E17654;
+                color: #FFEAD0;
+            }
+
+            .rugged {
+                background-color: #115E59;
+                color: #FFEAD0;
+            }
+
+            .luxury {
+                background-color: #161616;
+                color: #FFEAD0;
             }
 
             .clearfilter {
