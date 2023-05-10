@@ -11,6 +11,9 @@ import Review from './Components/Review/Review'
 import Income from './Components/Income/Income'
 import Van from './Components/Van/van'
 import HostVanDetails from './Page/HostVanDetails/HostVanDetails'
+import Pricing from './Components/HostVanDetails/Pricing'
+import Details from './Components/HostVanDetails/Details'
+import Photo from './Components/HostVanDetails/Photo'
 
 
 export default function App() {
@@ -22,13 +25,18 @@ export default function App() {
                     <Route path="host" element={<Host />}>
                         <Route index element={<Dashboard />} />
                         <Route path='vans' element={<Van />} />
-                        <Route path='vans/:id' element={<HostVanDetails />} />
+                        <Route path='vans/:id' element={<HostVanDetails />} >
+                            <Route index element={<Details />} />
+                            <Route path='pricing' element={<Pricing />} />
+                            <Route path='photo' element={<Photo />} />
+                        </Route>
                         <Route path='review' element={<Review />} />
                         <Route path='income' element={<Income />} />
                     </Route>
                     <Route path="about" element={<About />} />
-                    <Route path="van" element={<Vans />} />       
-                    <Route path="van/:id" element={<VanDetails />} />       
+                    <Route path="van" element={<Vans />} />
+                    <Route path="van/:id" element={<VanDetails />}>
+                    </Route>
                 </Route>
             </Routes>
         </div>

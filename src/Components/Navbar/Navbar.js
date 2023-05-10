@@ -10,15 +10,15 @@ export default function Navbar() {
                 </span>
             </div>
             <div className='right'>
-                <NavLink to="/host" style={({ isActive }) => ({ 
+                <NavLink to="host" style={({ isActive }) => ({ 
                             color: isActive ? '#161616' : '#4D4D4D', 
                             textDecoration : isActive ? 'underline': 'none'
                         })} > Host</NavLink>
-                <NavLink to="/about" style={({ isActive }) => ({ 
+                <NavLink to="about" style={({ isActive }) => ({ 
                             color: isActive ? '#161616' : '#4D4D4D', 
                             textDecoration : isActive ? 'underline': 'none'
                         })}>About</NavLink>
-                <NavLink to="/van" style={({ isActive }) => ({ 
+                <NavLink to="van" style={({ isActive }) => ({ 
                             color: isActive ? '#161616' : '#4D4D4D', 
                             textDecoration : isActive ? 'underline': 'none'
                         })} >Van</NavLink>
