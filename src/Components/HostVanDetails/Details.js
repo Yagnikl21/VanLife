@@ -5,7 +5,7 @@ export default function Details() {
 
   const currentVan = useOutletContext();
   return (
-    <div className='details'>
+    <div className='host-van-details'>
       <h4>Name : <span>{currentVan[0].name}</span></h4>
       <h4>Category : <span>{currentVan[0].type}</span></h4>
       <h4>Description : <span>{currentVan[0].description}</span></h4>
