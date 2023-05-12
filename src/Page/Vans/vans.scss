@@ -3,7 +3,7 @@
     width: 548.15px;
 
     .van-body {
-        padding: 25px;
+        padding: 0 25px 25px;
         background-color: #FFF7ED;
 
         h1 {
@@ -11,47 +11,56 @@
             font-size: 32px;
             line-height: 34px;
             color: #161616;
+            margin-bottom: 45px;
         }
 
         .filter {
             display: flex;
-            justify-content: space-between;
+            gap : 1.2rem;
 
             .filter-button {
-                width: 100px;
                 height: 34px;
-                background: #FFEAD0;
-                border-radius: 5px;
-                font-weight: 500;
+                padding: 6px 26px;
+                font-style: normal;
+                font-weight: 600;
                 font-size: 16px;
-                line-height: 24px;
-                text-align: center;
-                color: #4D4D4D;
                 border: none;
+                border-radius: 5px;
+                background-color: #FFEAD0;
+                color: #4D4D4D;
+                transition: 200ms all cubic-bezier(0.4, 0, 0.2, 1);
+                align-items: center;
+                display: flex;
             }
 
-            .simple {
+            .simple, .simple-hover:hover {
                 background-color: #E17654;
                 color: #FFEAD0;
             }
 
-            .rugged {
+            .rugged, .rugged-hover:hover {
                 background-color: #115E59;
                 color: #FFEAD0;
             }
 
-            .luxury {
+            .luxury, .luxury-hover:hover {
                 background-color: #161616;
                 color: #FFEAD0;
             }
-
+            
             .clearfilter {
-                background: transparent;
-                font-weight: 500;
+                align-items: center;
+                display: flex;
                 font-size: 16px;
-                line-height: 24px;
-                text-decoration-line: underline;
+                margin-left: -20px;
+                height: 34px;
+                padding: 6px 26px;
+                font-style: normal;
+                font-weight: 500;
                 border: none;
+                border-radius: 5px;
+                text-decoration: underline;
+                background-color: transparent;
                 color: #4D4D4D;
             }
         }

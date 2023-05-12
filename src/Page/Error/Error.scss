@@ -1,0 +1,30 @@
+.error {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+    height: 50vh;
+    h1 {
+        text-align: center;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 42px;
+        color: #161616;
+    }
+
+    a {
+        width: 494.33px;
+        height: 55px;
+        text-decoration: none;
+        background: #161616;
+        border-radius: 4.98319px;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 32px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #FFFFFF;
+    }
+}

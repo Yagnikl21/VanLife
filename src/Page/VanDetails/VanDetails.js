@@ -1,19 +1,17 @@
 import data from '../../data'
 import './VanDetails.scss'
-import { Link, useParams } from 'react-router-dom'
+import { Link, useLocation, useParams } from 'react-router-dom'
 
 export default function VanDetails() {
 
   const params = useParams();
+  const location = useLocation();
   const index = params.id;
-
-  console.log(index);
-  console.log(data[index]);
-
+  const back = location.state.type ? location.state.type : "all"
   return (
 
     <div className='van-details'>
-      <Link to=".."  relative='path'>&#8592; Back to all vans</Link>
+      <Link to={`..?${location.state ? location.state.search : location.state}`}  relative='path'>&#8592; Back to {back} vans</Link>
       <img src={data[index].imageUrl} alt="van" />
       <div className='detail'>
 

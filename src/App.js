@@ -14,6 +14,7 @@ import HostVanDetails from './Page/HostVanDetails/HostVanDetails'
 import Pricing from './Components/HostVanDetails/Pricing'
 import Details from './Components/HostVanDetails/Details'
 import Photo from './Components/HostVanDetails/Photo'
+import Error from './Page/Error/Error'
 
 
 export default function App() {
@@ -22,6 +23,9 @@ export default function App() {
             <Routes>
                 <Route path="/" element={<Layout />}>
                     <Route index element={<Home />} />
+                    <Route path="about" element={<About />} />
+                    <Route path="van" element={<Vans />} />
+                    <Route path="van/:id" element={<VanDetails />} />
                     <Route path="host" element={<Host />}>
                         <Route index element={<Dashboard />} />
                         <Route path='vans' element={<Van />} />
@@ -33,10 +37,7 @@ export default function App() {
                         <Route path='review' element={<Review />} />
                         <Route path='income' element={<Income />} />
                     </Route>
-                    <Route path="about" element={<About />} />
-                    <Route path="van" element={<Vans />} />
-                    <Route path="van/:id" element={<VanDetails />}>
-                    </Route>
+                    <Route path='*' element={<Error />} />
                 </Route>
             </Routes>
         </div>
