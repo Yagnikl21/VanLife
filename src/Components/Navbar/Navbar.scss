@@ -44,8 +44,11 @@
         gap: 30px;
 
         a {
-            gap: 30px;
             align-self: center;
+            image{
+                height: 24px;
+                width: 24px;
+            }
         }
     }
 

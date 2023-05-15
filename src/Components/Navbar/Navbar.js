@@ -1,6 +1,9 @@
 import React from 'react';
 import './Navbar.scss'
+import userImage from './Usercircle.png';
 import { NavLink } from 'react-router-dom';
+
+
 export default function Navbar() {
     return (
         <nav className='navbar'>
@@ -10,18 +13,24 @@ export default function Navbar() {
                 </span>
             </div>
             <div className='right'>
-                <NavLink to="host" style={({ isActive }) => ({ 
-                            color: isActive ? '#161616' : '#4D4D4D', 
-                            textDecoration : isActive ? 'underline': 'none'
-                        })} > Host</NavLink>
-                <NavLink to="about" style={({ isActive }) => ({ 
-                            color: isActive ? '#161616' : '#4D4D4D', 
-                            textDecoration : isActive ? 'underline': 'none'
-                        })}>About</NavLink>
-                <NavLink to="van" style={({ isActive }) => ({ 
-                            color: isActive ? '#161616' : '#4D4D4D', 
-                            textDecoration : isActive ? 'underline': 'none'
-                        })} >Van</NavLink>
+                <NavLink to="host" style={({ isActive }) => ({
+                    color: isActive ? '#161616' : '#4D4D4D',
+                    textDecoration: isActive ? 'underline' : 'none'
+                })} > Host</NavLink>
+                <NavLink to="about" style={({ isActive }) => ({
+                    color: isActive ? '#161616' : '#4D4D4D',
+                    textDecoration: isActive ? 'underline' : 'none'
+                })}>About</NavLink>
+                <NavLink to="van" style={({ isActive }) => ({
+                    color: isActive ? '#161616' : '#4D4D4D',
+                    textDecoration: isActive ? 'underline' : 'none'
+                })} >Van</NavLink>
+                <NavLink to="login" style={({ isActive }) => ({
+                    color: isActive ? '#161616' : '#4D4D4D',
+                    textDecoration: isActive ? 'underline' : 'none'
+                })}>
+                    <img src={userImage} alt="Profile" />
+                </NavLink>
             </div>
         </nav>
     )
